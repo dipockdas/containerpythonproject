@@ -82,18 +82,18 @@ Run the image
 docker run -d -p 5000:5000 myimage
 ```
 
-Check the image is running
+Check the container is running
 
 ```
 docker ps -a
 ```
 
-Check the logs if the image fails
+Check the logs if the container fails
 ```
-docker logs <image_name>
+docker logs <container_name>
 ```
 
-If the image is running - test the app using cURL
+If the container is running - test the app using cURL
 
 ```
 curl http://localhost:5000
